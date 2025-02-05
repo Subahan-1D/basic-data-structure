@@ -16,6 +16,7 @@ int main()
     b.next = NULL;
 
     cout << a.val << endl;
-    cout << b.val << endl;
+    // cout << b.val << endl;
+    cout << (*a.next).val <<endl;
     return 0;
 }
